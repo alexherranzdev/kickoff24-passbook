@@ -165,7 +165,6 @@ export default function Home() {
                 Hacer foto
               </button>
             )}
-
             {photo && (
               <button disabled={isSubmitting} onClick={handleSubmitImage} className='block h-20 px-20 mx-auto mt-4 text-3xl font-bold text-center text-white uppercase transition-all duration-300 rounded-lg bg-primary hover:bg-primary-dark focus:bg-primary-dark disabled:opacity-60'>
                 {isSubmitting ? 'Enviado...' : 'Enviar'}
